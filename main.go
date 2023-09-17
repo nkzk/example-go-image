@@ -11,7 +11,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	w.Write([]byte("Hello world"))
+	w.Write([]byte("Hello world!"))
 }
 
 func main() {
