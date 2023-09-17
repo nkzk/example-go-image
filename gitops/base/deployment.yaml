@@ -18,7 +18,7 @@ spec:
         app: example
     spec:
       containers:
-      - image: ghcr.io/nkzk/example-go-image:latest
+      - image: ghcr.io/nkzk/example-go-image:release
         name: example-go-image
         resources: {}
 status: {}
